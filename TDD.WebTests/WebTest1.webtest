@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="bc8ca61c-38ec-47b7-813a-9eae1d61df8f" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.996c75a4-86d4-4db3-9f44-e2a94151a38e.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="66df8249-8793-4d95-a403-f554fbfd5e27" Version="1.1" Url="{{WebServer1}}/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="{{WebServer2}}%2F" RecordedValue="http%3A%2F%2Flocalhost%3A8516%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="src" Value="IE-Address" RecordedValue="IE-Address" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IE8SSC" RecordedValue="IE8SSC" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="fr-FR" RecordedValue="fr-FR" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="12b1fc56-9b22-485b-9f46-b7f4d9849492" Version="1.1" Url="{{WebServer3}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="POST" Guid="8f9669df-5ad9-4f8f-80ae-6688bf06de14" Version="1.1" Url="{{WebServer3}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="5598c575-c10c-4ee5-8139-212af112e327" Version="1.1" Url="{{WebServer4}}/623ec47466f64b56bf2b551b8ddbbd7a/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+            <Header Name="Referer" Value="{{WebServer3}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAS27WNAsUXUK97ET%2FNLI%2F6QAAAAACAAAAAAAQZgAAAAEAACAAAADW19asX69kJkkhIOVikztRQIGnAuzabMuT3bL%2FPq6srwAAAAAOgAAAAAIAACAAAACIdDl%2FKSqRfwqPbLLffX92uBv9jLmY8GLxAOaxZfo8uTAAAAC7dfP%2FXXQJzcdmcMaovrsi3kLBXBRSuvIwoYmNNaLRpIHnED7Ujv7GF1q0tAwqJ1BAAAAA0P8Gv4teKK8WhMhi7KdmSr2b6zd%2Byb3SPqKiIhjmgWD0%2Be7MhpKLCXMRRo9M4j04gJ%2BL%2FpLLN1cDbstQE7VAYg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAS27WNAsUXUK97ET%2FNLI%2F6QAAAAACAAAAAAAQZgAAAAEAACAAAADW19asX69kJkkhIOVikztRQIGnAuzabMuT3bL%2FPq6srwAAAAAOgAAAAAIAACAAAACIdDl%2FKSqRfwqPbLLffX92uBv9jLmY8GLxAOaxZfo8uTAAAAC7dfP%2FXXQJzcdmcMaovrsi3kLBXBRSuvIwoYmNNaLRpIHnED7Ujv7GF1q0tAwqJ1BAAAAA0P8Gv4teKK8WhMhi7KdmSr2b6zd%2Byb3SPqKiIhjmgWD0%2Be7MhpKLCXMRRo9M4j04gJ%2BL%2FpLLN1cDbstQE7VAYg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="requestUrl" Value="{{WebServer2}}%2F" RecordedValue="http%3A%2F%2Flocalhost%3A8516%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody />
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer3}}/" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="SearchText" Value="tdd" RecordedValue="tdd" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="f8dca2fa-e7c4-42eb-a5ea-b3be5d5fcb5e" Version="1.1" Url="{{WebServer3}}/__browserLink/requestData/c4080a49c9a248c698bdd6f61e8e23c8" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{WebServer3}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d5b6b594-3faa-4a8a-855f-3f4eed1c6d78" Version="1.1" Url="{{WebServer3}}/Home/About" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer3}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="586025c4-f30b-449d-8671-11a275e55262" Version="1.1" Url="{{WebServer3}}/__browserLink/requestData/6c6f95e408de45c5a906a266ae989648" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{WebServer3}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="37876a59-8933-47a1-9530-86c300173b93" Version="1.1" Url="{{WebServer3}}/Home/Contact" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer3}}/Home/About" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7117888a-33a4-44db-9ba3-cf5e2933d35f" Version="1.1" Url="{{WebServer3}}/__browserLink/requestData/a048b10304e84f1ebb4b35fed04a7775" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{WebServer3}}/Home/About" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="06b9f68d-1f6a-4222-bbe2-b00aee91497a" Version="1.1" Url="{{WebServer3}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{WebServer3}}/Home/Contact" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f7dca78f-b3f6-4073-a64d-5f23da5da173" Version="1.1" Url="{{WebServer3}}/__browserLink/requestData/abf7bee1d5154de3bb92aff7e58acdc0" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{WebServer3}}/Home/Contact" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3ae7c2c4-58c6-4409-9b69-1b08d6751c68" Version="1.1" Url="{{WebServer3}}/__browserLink/requestData/bd902de105904aa3a6217666dad4b096" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{WebServer3}}/" />
+      </Headers>
+    </Request>
+  </Items>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://api.bing.com" />
+    <ContextParameter Name="WebServer2" Value="http%3A%2F%2Flocalhost%3A8516" />
+    <ContextParameter Name="WebServer3" Value="http://localhost:8516" />
+    <ContextParameter Name="WebServer4" Value="http://localhost:28750" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="URL de réponse" Description="Valide que l'URL de la réponse, après que les redirections ont été suivies, est identique à l'URL de réponse enregistrée. Les paramètres QueryString sont ignorés." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Objectif de temps de réponse" Description="Valide que le temps de réponse de la requête est inférieur ou égal à l'objectif de temps de réponse spécifié dans la requête. Les objectifs de temps de réponse ayant la valeur zéro seront ignorés." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

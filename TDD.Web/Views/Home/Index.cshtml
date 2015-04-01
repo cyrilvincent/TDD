@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>TDD</h1>
+    @model TDD.Web.Models.BookViewModels
+    @{var grid = new WebGrid(Model.BookVMs);}
+
+
+    @using (Html.BeginForm("Index", "Home"))
+    {
+
+        @Html.TextBoxFor(m => m.SearchText)
+        <input type="submit" value="Search" />
+        @grid.GetHtml();
+    }
+</div>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TDD.Repositories.Library.Common.AbstractRepository&lt;T, U&gt;">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAMAEAAAAAAAAAAAABAUAAAEAAAgAAgAAAAAAAIA=</HashCode>
+      <FileName>Common\AbstractRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TDD.Repositories.Library.AuthorRepository">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AuthorRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDD.Repositories.Library.BookRepository">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BookRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDD.Repositories.Library.PublisherRepository">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PublisherRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDD.Repositories.Library.TDDDbContext" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAkABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TDDDbContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
